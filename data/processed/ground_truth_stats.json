@@ -1,0 +1,12 @@
+{
+  "total_domains": 279075,
+  "category_counts": {
+    "tracking": 261344,
+    "advertising": 47656
+  },
+  "source_coverage": {
+    "adblock_team": 96749,
+    "oisd": 217577
+  },
+  "multi_source_confirmed": 35251
+}

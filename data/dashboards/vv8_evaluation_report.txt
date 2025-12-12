@@ -1,0 +1,58 @@
+======================================================================
+VV8 TRACKER IDENTIFICATION EVALUATION REPORT
+======================================================================
+Generated: 2025-12-01 00:34:27
+
+----------------------------------------------------------------------
+OVERALL PERFORMANCE
+----------------------------------------------------------------------
+Total websites evaluated: 49
+
+  Accuracy:    87.76%
+  Precision:   87.76%
+  Recall:      100.00%
+  F1 Score:    93.48%
+  Specificity: 0.00%
+
+----------------------------------------------------------------------
+CONFUSION MATRIX
+----------------------------------------------------------------------
+                         In Filter Lists (has tracking elements)
+                         Yes           No
+VV8: Has Tracking            43            6     
+VV8: No Tracking             0             0     
+
+----------------------------------------------------------------------
+INTERPRETATION
+----------------------------------------------------------------------
+True Positives:   43 - Sites with tracking, correctly detected by VV8
+True Negatives:    0 - Sites without tracking, correctly identified
+False Positives:   6 - VV8 detected tracking not in filter lists*
+False Negatives:   0 - Sites in filter lists missed by VV8
+
+* Note: 'False positives' may indicate tracking behaviors that filter lists
+  haven't catalogued yet, demonstrating LLM's broader detection capability.
+
+----------------------------------------------------------------------
+PERFORMANCE BY GROUND TRUTH CONFIDENCE
+----------------------------------------------------------------------
+
+DETECTED Confidence (43 samples):
+  Accuracy:  100.00%
+  Precision: 100.00%
+  Recall:    100.00%
+  F1 Score:  100.00%
+
+----------------------------------------------------------------------
+DETAILED RESULTS
+----------------------------------------------------------------------
+
+False Positives (VV8 flagged as tracker, but not in ground truth):
+  - https://www.techcrunch.com (VV8: advertising)
+  - https://www.theverge.com (VV8: advertising)
+  - https://www.tripadvisor.com (VV8: advertising)
+  - https://www.zillow.com (VV8: advertising)
+  - https://www.airbnb.com (VV8: analytics)
+  - https://www.discord.com (VV8: advertising)
+
+======================================================================

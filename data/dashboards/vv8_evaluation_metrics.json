@@ -1,0 +1,25 @@
+{
+  "overall": {
+    "total_samples": 49,
+    "accuracy": 0.8775510204081632,
+    "precision": 0.8775510204081632,
+    "recall": 1.0,
+    "f1_score": 0.9347826086956522,
+    "true_positives": 43,
+    "true_negatives": 0,
+    "false_positives": 6,
+    "false_negatives": 0,
+    "specificity": 0.0,
+    "negative_predictive_value": 0
+  },
+  "by_confidence": {
+    "detected": {
+      "count": 43,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "timestamp": "2025-12-01T00:34:28.294996"
+}
